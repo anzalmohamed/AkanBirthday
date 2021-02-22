@@ -31,8 +31,8 @@ tableRow.appendChild(tableTdDate);
 resultsTbody.appendChild("tableRow");
 });
 ;*/
-window.addEventListener("DOMContentLoaded", function () {
-    console.log("content loaded");
+/*window.addEventListener("DOMContentLoaded", function () {
+    console.log("content loaded");*/
 
 var checkDayOfWeek = century, year, month, date;
 
