@@ -1,6 +1,6 @@
 # AKAN BIRTH DAYS
 ## Description
-The site aims to give it's users an Akan name and their exact day of birth.
+The site aims to give the users an Akan name and their exact day of birth.
 ## Demo
 Here is a working live demo :  https://anzalmohamed.github.io/birthday/
 ## Setup/Installation Requirements
