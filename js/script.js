@@ -34,7 +34,7 @@ resultsTbody.appendChild("tableRow");
 window.addEventListener("DOMContentLoaded", function () {
     console.log("content loaded");
 
-var century, year, month, date;
+var checkDayOfWeek = century, year, month, date;
 
 function getInput() {
     century = parseInt(document.getElementById("century").value);
