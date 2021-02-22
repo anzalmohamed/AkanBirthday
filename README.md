@@ -2,7 +2,7 @@
 ## Description
 The site aims to give it's users an Akan name and their exact day of birth.
 ## Demo
-Here is a working live demo :  https://anzalmohamed.github.io/Akan-Birth-Days/
+Here is a working live demo :  https://anzalmohamed.github.io/birthday/
 ## Setup/Installation Requirements
 * Google Chrome
 ## Known Bugs
@@ -10,7 +10,7 @@ There are currently no bugs with the site.
 ## Built with
 - [Html](/home/anzal/Desktop/birthday/index.html) - used Html to write the index.html file.
 - [Css](/home/anzal/Desktop/birthday/css/style.css)- css was used to write the style.css file which helped design the website.
--[JavaScript](/home/anzal/Desktop/birthday/js/script.js) - java script was used as the scripting language.
+- [JavaScript](/home/anzal/Desktop/birthday/js/script.js) - java script was used as the scripting language.
 ## How you can contribute!
 1. Fork it!
 2. Create your feature branch: `git checkout -b my-new-feature`
