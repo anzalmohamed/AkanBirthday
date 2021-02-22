@@ -1,0 +1,22 @@
+.card-body{
+    background-color: goldenrod;
+}
+img{
+    height: 6cm;
+    width: 8cm;
+    margin: 0cm;
+    padding: 0cm;
+}
+.card-title{
+    background-color: rgb(143, 25, 54);
+}
+h1{
+    color: rgb(240, 228, 230);
+    font-weight: 800;
+    font-size: 1.4cm;
+    font-family:  'Arial Narrow Bold';
+    
+}
+.row{
+    background-color: lightcoral;
+}
