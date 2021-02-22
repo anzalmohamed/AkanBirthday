@@ -6,7 +6,7 @@ Here is a working live demo :  https://anzalmohamed.github.io/birthday/
 ## Setup/Installation Requirements
 * Google Chrome
 ## Known Bugs
-There are currently no bugs with the site.
+The site is currently not responding on submitting the form because I had an isssue with the scripting language
 ## Built with
 - [Html](/home/anzal/Desktop/birthday/index.html) - used Html to write the index.html file.
 - [Css](/home/anzal/Desktop/birthday/css/style.css)- css was used to write the style.css file which helped design the website.
