@@ -22,6 +22,18 @@ h1{
 }
  h3 {color: black;
     font-style: normal;
-    background-color: goldenrod;
+
 
 }
+#colspan{
+    align-items: center;
+}
+#table{
+    align-items: center;
+    border: 0cm;
+}
+#p{
+    justify-content: left;
+    font-size: x-large;
+}
+
