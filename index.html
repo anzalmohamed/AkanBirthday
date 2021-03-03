@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Akan Birth Days!</title>
-  <link rel="stylesheet" href="bootstrap-4.6.0-dist/css/bootstrap.min.css" type="text/css">
+  <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
   <link rel='stylesheet' type='text/css' href='css/style.css'>
   <script src="js/script.js"></script>
 </head>
@@ -16,23 +16,18 @@
       background-image: url('images/image1.jpg');
     }
   </style>
-
   <div class="container">
     <div class="jumbotron">
       <div class="card">
         <div class="card-title">
           <h1>Akan Birth Days </h1>
         </div>
-
         <div class="card-body">
-
-
           <img src="images/image3.jpg" ALIGN="LEFT" VSPACE="20cm" HPACE="25cm" alt="birthday cake">
-
-
           <p>Do you ever get curious about your birthday, not the one you know as your birth date.
             What most people confuse is their birthday and their actual birth date. What is the difference you say?
-            Days are as we all know Monday, Tuesday, Wednesday, Thursday, Friday and the weekdends Saturday and Sunday and
+            Days are as we all know Monday, Tuesday, Wednesday, Thursday, Friday and the weekdends Saturday and Sunday
+            and
             dates are
             from 1 to 30 ,31 or 28 depending on the month.
             Now that we've cleared that up can you remember the day you were born? I bet not. Most of our parent
@@ -67,91 +62,84 @@
           </p>
         </div>
       </div>
-      <div class="card">
-        <div class="card-header">
-          <h3>Fill in the form below</h3>
+
+
+
+      <!-- <form id="form1">
+      <div class="form-group">
+        <label for="birtData">Input Your Date of Birth</label>
+        <input type="date" class="form-control" id="bioData" required>
+      </div>
+      <div class="form-group">
+        <label for="gender">gender</label>
+        <select name="gender" id="gender">
+        <option value="gender">Gender</option>
+          <option value="female">Female</option>
+          <option value="male">Male</option>
+        </select>
+        <div>
+        <button type="submit" name="submit" onclick="calculate()">calculate Birthday</button>
         </div>
-        <div class="card-body">
-          <div class="row border mt-3">
-            <div class="col-md-12">
-              <form>
-                <div class="mb-3">
-                  <label for="century">century:</label><br>
-                  <input type="text" id="century" name="century" placeholder="century eg 1987"><br><br>
-                </div>
-                <div class="mb-3">
-                  <label for="year">year:</label><br>
-                  <input type="text" id="year" name="year" placeholder="year of birth"><br><br>
-                </div>
-                <div class="mb-3">
-                  <label for="fname">month:</label><br>
-                  <input type="text" id="month" name="month" placeholder="month of birth"><br>
-                </div>
-                <div class="mb-3">
-                  <label for="date">Date:</label><br>
-                  <input type="text" id="date" name="date" placeholder="Date of birth"><br><br>
-                </div>
-                <div class="mb-3">
-                  <label for="Female"><input id="Female" type="checkbox" name="Gender"> Female</label>
-                </div>
-                <div class="mb-3">
-                  <label for="Male"><input id="Male" type="checkbox" name="Male"> Male</label>
-                </div>
-                <a href="file:///home/anzal/Desktop/birthday/index.html"><button type="button" name="button" class="btn btn-primary mb-2"
-                  onclick="checkDayOfWeek();">Calculate Birthday</button></a>
-                  <h1 id="file:///home/anzal/Desktop/birthday/index.html"></h1>
-              </form>
-            </div>
-            
-            
-          </div>
-        </div>
-      </div>
+    </form>
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Akan Name</th>
+            </tr>
+          </thead>
+          <tbody id="Tbody">
+            <!-- <tr>
+                        <td>@mdo</td>
+                      </tr> 
+          </tbody>
+        </table>-->
 
 
 
-      <!--<div class="row border mt-3">
-          <div class="col-md-12">
-            <form id=bioData class="pt-mt-3">
-       <div class="mb-3">
-        <label for="century">century:</label><br>
-        <input type="text" id="century" name="century" placeholder="century eg 1987"><br><br>
-       </div>
-       <div class="mb-3">
-        <label for="year">year:</label><br>
-        <input type="text" id="year" name="year" placeholder="year"><br><br>
-      </div>
-      <div class="mb-3">
-        <label for="century">month:</label><br>
-        <input type="text" id="month" name="century" placeholder="month"><br><br>
-      </div>
-      <div class="mb-3">
-        <label for="century">date:</label><br>
-        <input type="text" id="date" name="century" placeholder="date of birth"><br><br>
-      </div>
-    <button type="submit" id="addBtn" class="btn btn-primary">submit</button>
-            </form>
-       <div class="row border mt-3">
-         <div class="col-md-12">
-           <table class="table">
-             <thead>
-               <tr>
-                 <th scope="col">Day</th>   
-                 <th scope="col">Name</th>
-                 <th scope="col">month</th>
-                 <th scope="col">date</th>
-               </tr>
-             </thead>
-             <tbody id="resultsTbody">
-             </tbody> 
-           </table>
-         </div>
-       </div>-->
-      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
+      <p id="p">
+        CALCULATE YOUR AKAN NAME</p>
+
+      <form name="form1" method="post" action="">
+        <table id="table">
+
+          <tr>
+            <td>year:</td>
+            <td><input name="year" type="text" size="15">
+          </tr>
+
+          <tr>
+            <td>month:</td>
+            <td><input name="month" type="text" size="15" required>
+          </tr>
+          <tr>
+            <td>date:</td>
+            <td><input name="date" type="text" size="15" required>
+          </tr>
+          <tr>
+            <td>gender:</td>
+            <td><select name="gender" required>
+                <option value="gender" >gender</option>
+                <option value="female">female</option>
+                <option value="male">male</option>
+              </select>
+          </tr>
+
+          <tr>
+            <td colspan="2" id="colspan">
+              <input type="submit" name="submit" value="Get your result!" onclick="calculate()">
+              <input type="reset" name="reset" value="Reset">
+            </td>
+          </tr>
+
+          
     </div>
   </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
