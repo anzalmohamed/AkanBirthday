@@ -18,6 +18,7 @@ else if (gender=="female"&& dayOfTheWeek==4){alert("your akan name is " +fName[3
 else if (gender=="female"&& dayOfTheWeek==5){alert("your akan name is " +fName[4])}
 else if (gender=="female"&& dayOfTheWeek==6){alert("your akan name is " +fName[5])}
 else if (gender=="female"&& dayOfTheWeek==7){alert("your akan name is " +fName[6])}
+
 //male names
 
 if (gender=="male"&& dayOfTheWeek==1){alert("your akan name is " +mName[0])}
