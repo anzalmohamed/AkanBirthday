@@ -1,0 +1,28 @@
+body{
+    background-color: teal;
+    font-family: Arial;
+    text-decoration-color: orangered;
+    font-size: large;
+    font-weight: 700;
+}
+form{
+    border-style: groove;
+  border-width: 7px;
+  border-color: coral;
+  
+  
+}
+.form{
+ box-align: center;
+}
+#big{
+  margin-top: 2cm;
+  margin-bottom: 2cm;
+  margin-left: 2cm;
+  margin-right: 2cm;
+}
+.p{
+text-align: center;
+position: relative;
+left: 30%;
+}
